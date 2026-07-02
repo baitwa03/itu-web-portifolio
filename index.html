@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ruhi Ibrahim</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="portfolio-container">
+        
+        <section class="left-content">
+            <header class="bio-intro">
+                <h1>Hello, I am Ruhi Ibrahim</h1>
+                <h2>Web Developer & ICT Professional</h2>
+                <p>I am passionate about designing modern, responsive, and user-friendly web applications. I enjoy working with HTML, CSS, JavaScript, PHP, Laravel, Livewire, and database technologies.</p>
+            </header>
+
+            <dl class="portfolio-dl">
+                <dt>Skills</dt>
+                <dd>
+                    <ul>
+                        <li><strong>HTML</strong> - the standard markup language for creating web pages.</li>
+                        <li><strong>CSS</strong> - used to style and layout web pages.</li>
+                        <li><strong>JS</strong> - A programming language that enables interactive web functionality.</li>
+                    </ul>
+                </dd>
+
+                <dt>Projects</dt>
+                <dd>
+                    <ul>
+                        <li><strong>Full-Stack Student Records System</strong> - Developed using PHP and MySQL to manage enrollment metrics and student data tracking.</li>
+                    </ul>
+                </dd>
+
+                <dt>Education</dt>
+                <dd>
+                    <ul>
+                        <li><strong>Bachelor of Science in Computer Science / Information Technology</strong> - Focused heavily on full-stack web architectures, hardware deployment, and operating systems.</li>
+                    </ul>
+                </dd>
+            </dl>
+        </section>
+
+        <section class="right-content">
+            
+            <div class="photo-block">
+                <div class="profile-frame">
+                    <img id="profile-img" src="photo1.jpg" alt="Mathias Kiheka Profile">
+                </div>
+                <button id="switch-btn" type="button">Switch Photo</button>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-field">
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your Full Name" required>
+                </div>
+                
+                <div class="form-inputs-row">
+                    <input type="email" id="email" name="email" placeholder="Enter your Email Address" required>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your Phone Number" required>
+                </div>
+                
+                <div class="form-field">
+                    <textarea id="message" name="message" rows="4" placeholder="Enter your Message/Comments" required></textarea>
+                </div>
+                
+                <div class="form-btn-container">
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="page-footer">
+        <p>&copy; 2026 Ruhi Ibrahim. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
